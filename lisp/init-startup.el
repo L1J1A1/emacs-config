@@ -11,7 +11,6 @@
 (add-hook 'prog-mode-hook #'show-paren-mode)
 (add-hook 'prog-mode-hook #'hs-minor-mode)
 
-(add-to-list 'default-frame-alist '(width . 90))
-(add-to-list 'default-frame-alist '(height . 55))
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 (provide 'init-startup)

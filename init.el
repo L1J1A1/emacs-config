@@ -5,6 +5,7 @@
 
 (require 'init-startup)
 (require 'init-elpa)
+(require 'init-org)
 (require 'init-packages)
 (require 'init-ui)
 (custom-set-variables
