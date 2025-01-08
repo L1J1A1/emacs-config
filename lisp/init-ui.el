@@ -1,10 +1,10 @@
 (use-package gruvbox-theme
-	     :init (load-theme 'gruvbox-dark-soft t))
+	     :init (load-theme 'tango-dark t))
 
 (use-package smart-mode-line
 	     :init
 	     (setq sml/no-confirm-load-theme t
-		   sml/theme 'respectful)
+		   sml/theme 'automatic)
 	     (sml/setup))
 
 (provide 'init-ui)
