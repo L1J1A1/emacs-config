@@ -8,8 +8,7 @@
 (setq make-backup-files nil)
 
 (electric-pair-mode t)
-(add-hook 'prog-mode-hook #'show-paren-mode)
-(add-hook 'prog-mode-hook #'hs-minor-mode)
+(show-paren-mode 1)
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 

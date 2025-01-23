@@ -1,9 +1,9 @@
 (setq org-log-done 'time)
 (setq org-agenda-start-on-weekday 0)
-
-(add-hook 'org-mode-hook
-          (lambda ()
-            (org-bullets-mode t)))
 (setq org-ellipsis "⤵")
+
+(use-package org-bullets
+  :ensure t
+  :hook (org-mode . org-bullets-mode))
 
 (provide 'init-org)
