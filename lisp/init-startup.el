@@ -12,4 +12,8 @@
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
+(if (display-graphic-p)
+    (set-face-attribute 'default nil :height 180)
+  (set-face-attribute 'default nil :height 100))
+
 (provide 'init-startup)
