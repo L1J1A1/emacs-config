@@ -10,6 +10,10 @@
 (electric-pair-mode t)
 (show-paren-mode 1)
 
+(setq c-basic-offset 4)
+(setq-default tab-width 4)
+(setq-default indent-tabs-mode nil)
+
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 (if (display-graphic-p)
