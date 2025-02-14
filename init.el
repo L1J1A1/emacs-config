@@ -9,3 +9,4 @@
 (require 'init-packages)
 (require 'init-ui)
 (require 'init-window)
+(require 'init-rgrep)
