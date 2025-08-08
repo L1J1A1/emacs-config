@@ -4,7 +4,7 @@
         ("org" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
 
 ;;个别时候会出现签名检验失败
-(setq package-check-signature nil) 
+(setq package-check-signature nil)
 
 ;; 初始化软件包管理器
 (require 'package)
@@ -20,8 +20,8 @@
     (package-refresh-contents)
     (package-install 'use-package))
 
-;; `use-package-always-ensure' 避免每个软件包都需要加 ":ensure t" 
-;; `use-package-always-defer' 避免每个软件包都需要加 ":defer t" 
+;; `use-package-always-ensure' 避免每个软件包都需要加 ":ensure t"
+;; `use-package-always-defer' 避免每个软件包都需要加 ":defer t"
 (setq use-package-always-ensure t
       use-package-always-defer t
       use-package-enable-imenu-support t

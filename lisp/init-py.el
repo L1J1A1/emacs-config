@@ -11,7 +11,7 @@
            (compilation-ask-about-save nil))
       (executable-interpret (read-shell-command "Run: " command)))))
 
-(with-eval-after-load 'python 
+(with-eval-after-load 'python
   (define-key python-mode-map [f5] 'python/run-current-file))
 
 (provide 'init-py)
